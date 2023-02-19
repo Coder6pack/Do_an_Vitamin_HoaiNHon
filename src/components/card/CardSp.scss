@@ -1,0 +1,12 @@
+.container-card{
+   display: flex;
+
+      &-basis{
+         flex-basis: 20%;
+            &-img{
+               img{
+                  width: 100%;
+               }
+            }
+      }
+}
