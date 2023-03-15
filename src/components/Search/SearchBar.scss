@@ -1,0 +1,20 @@
+.container-search{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.form-product{
+   text-align: center;
+   margin: 40px 0px;
+   input{
+      width: 50%;
+   }
+   button{
+      background-color: #F6623E;
+      border: none;
+      color: white;
+      border-radius: 2px;
+      width: 5%;
+   }
+}

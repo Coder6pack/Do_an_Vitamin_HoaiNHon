@@ -1,0 +1,71 @@
+.container-product{
+   display: flex;
+   justify-content: space-around;
+   // gap: 20px;
+   overflow: hidden;
+   // padding: 0px 4%;
+   &-basis{
+
+         flex-basis: 22%;
+         .product-title{
+            position: relative;
+                  &-img{
+                        img{
+                              width: 100%;
+                        }
+                  }
+                  &-sale{
+                        position: absolute;
+                        top: 10px;
+                        right: 10px;
+                        background-color: #F6623E;
+                        color: white;
+                        padding: 5px 9px;
+                        font-size: 10px;
+                        font-weight: 400;
+                        line-height: 10px;
+                        letter-spacing: 1px;
+                  }
+         }
+
+         .product-content{
+            margin-top: 22px;
+            text-align: center;
+                  h4{
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 20px;
+                        letter-spacing: 2px;
+                  }
+                  span{
+                        display: inline-block;
+                  }
+                  &-price{
+                        margin-right: 20px;
+                        color: #F6623E;
+                        font-size: 14px;
+                        line-height: 20px;
+                        font-weight: 400;
+                  }
+
+                  &-discouter{
+                        color: #828181;
+                        text-decoration: line-through;
+                  }
+         }
+      }
+}
+.btn-viewall{
+      margin-top: 60px;
+      text-align: center;
+            button{
+                  max-width: 250px;
+                  max-height: 56px;
+                  font-size: 16;
+                  line-height: 25px;
+                  font-weight: 500;
+                  padding: 16px 40px;
+                  border: #F6623E solid 1px;
+                  background-color: white;
+            }
+}

@@ -1,0 +1,80 @@
+
+.container-box{
+   padding: 0px 120px;
+   background-color: #FFF8F6;
+   .container-footer{
+      display: flex;
+      justify-content: space-between;
+      &-basis{
+         flex-basis: 25%;
+         text-align: center;
+      }
+   
+      .good4me{
+         margin-top: 10px;
+         padding:0px 30px;
+      }
+   
+      .submit-form{
+         width: 100%;
+         border-bottom: 2px solid black;
+         input{
+            width: 80%;
+            border: none;
+            background-color:#FFF8F6 ;
+         }
+         button{
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 26px;
+            color: #F6623E;
+            border: none;
+            background-color: #FFF8F6;
+         }
+      }
+   
+      .more-infor{
+         text-align: start;
+         padding-left: 13%;
+         ul{
+            margin-top: 12px;
+            list-style: none;
+            padding: 0;
+            li{
+               padding-top: 10px;
+            }
+         }
+      }
+   }
+
+   .container-footer-icons{
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 30px;
+      margin-top: 30px;
+      border-top: 1px solid;
+      padding-top: 20px;
+      &-basis{
+         flex-basis: 20%;
+
+         .icons-list{
+            list-style: none;
+            padding: 0;
+            display: flex;
+            li{
+               margin-right: 20px ;
+            }
+         }
+      }
+   }
+}
+
+.img-footer{
+   margin-top: 135px;
+   background-color: #FFF8F6;
+}
+
+.footer-icons-link{
+   color: #F6623E;
+   text-decoration: none;
+}

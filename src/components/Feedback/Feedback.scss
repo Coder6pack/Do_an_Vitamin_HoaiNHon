@@ -1,0 +1,69 @@
+.container-feedback{
+   display: flex;
+   justify-content: space-around;
+   background-color: #FEF0E7;
+   padding-top: 70px;
+   padding-bottom: 40px;
+   &-basis{
+      flex-basis: 45%;
+   }
+   .basis-content{
+      padding-left: 330px;
+      h5{
+         font-size: 20px;
+         font-weight: 500;
+         line-height: 25px;
+         letter-spacing: 4px;
+         margin-top: 15px;
+         margin-bottom: 40px;
+      }
+      h3{
+         font-size: 30px;
+         font-weight: 500;
+         line-height: 25px;
+         letter-spacing: 4px;
+         color: #F6623E;
+         margin-bottom: 30px;
+      }
+      .comment{
+         font-weight: 500;
+         font-size: 22px;
+         line-height: 40px;
+         letter-spacing: 1px;
+      }
+
+      .sign{
+         color: #F6623E;
+         margin-bottom: 30px;
+      }
+      button{
+         display: inline-block;
+         max-width: 44px;
+         max-height: 44px;
+         padding: 10px  14px;
+         background-color: #fff;
+      }
+
+      .left-arrow{
+         margin-right: 20px;
+         border: #828181 1px solid;
+      }
+
+      .right-arrow{
+         border: #F6623E 1px solid;
+      }
+   }
+}
+
+.shop-all{
+   margin-top: 40px;
+   text-align: center;
+   margin-bottom: 45px;
+}
+
+.feedback-img{
+   background-color: #FEF0E7;
+}
+.img-top{
+   margin-top: 75px;
+}
